@@ -35,6 +35,11 @@ def create_top_medalist():
 
     df.dob = pd.to_datetime(df.dob)
 
+    # df['sport_enc'] = df['sport']
+    # encoder = LabelEncoder()
+    # encoder.fit(df.sport)
+    # df.sport_enc = encoder.transform(df.sport)
+
     categorical_features = df.dtypes==object
     categorical_cols = df.columns[categorical_features].tolist()
     le = LabelEncoder()
