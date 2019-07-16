@@ -7,3 +7,5 @@
 ### After we make the split, we can see improvements in the results.
 
 ### In the all_sports_model Jupyter Notebook, we work on predicting an athlete's sport based on height and weight.
+
+### In the gender_keras_model Jupyter Notebook, we use a Keras deep learning model to predict sex of the athlete.
